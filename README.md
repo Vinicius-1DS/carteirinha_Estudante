@@ -1,4 +1,4 @@
-# Carteira de Estudante - Versão 1.0
+# Carteira de Estudante - Versão 2.0
 
 Este projeto é uma implementação básica de uma carteira de estudante utilizando **Vue.js**. A primeira versão do projeto consiste em uma página simples que exibe informações de um estudante (nome, matrícula e curso) utilizando as diretivas básicas do Vue.js.
 

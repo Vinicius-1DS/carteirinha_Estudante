@@ -4,29 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carteira de Estudante</title>
-    <link rel="stylesheet" href="cateirinha_Estudante.css">
+    <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/vue@next"></script>
 </head>
 <body>
     <div id="app">
-        <h1>Carteira de Estudante</h1>
-        <div v-if="mostrarCarteira">
+        <div class="formulario">
+            <h2>Formulário</h2>
+            <input v-model="nome" placeholder="Nome">
+            <input v-model="matricula" placeholder="Matrícula">
+            <input v-model="curso" placeholder="Curso">
+        </div>
+
+        <div class="carteirinha">
+            <h2>Carteirinha de Estudante</h2>
             <p>Nome: {{ nome }}</p>
             <p>Matrícula: {{ matricula }}</p>
             <p>Curso: {{ curso }}</p>
         </div>
-
-        <h2>Adicionar Texto</h2>
-        <input v-model="novoTexto" placeholder="Digite um texto">
-        <button @click="adicionarTexto">Adicionar</button>
-        <ul>
-            <li v-for="(texto, index) in textos" :key="index">{{ texto }}</li>
-        </ul>
-
-        <label>
-            <input type="checkbox" v-model="modoEscuro"> Modo Escuro
-        </label>
     </div>
-    <script src="carteirinha_Estudante.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
