@@ -3,13 +3,26 @@ body {
     margin: 20px;
     padding: 0;
     background-color: #f4f4f4;
+    color: #000;
 }
 
 h1 {
-    color: #4365c2;
+    color: #333;
 }
 
 p {
     font-size: 18px;
     color: #555;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
 }

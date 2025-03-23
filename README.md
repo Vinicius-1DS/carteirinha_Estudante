@@ -16,6 +16,8 @@ Este projeto é uma implementação básica de uma carteira de estudante utiliza
 **Commit 0.4 - README com Passos para Criação**  
 - Documentação detalhada dos passos para criar o projeto.
 
-5. **Commit 1.0 - Projeto em Produção**  
+**Commit 1.0 - Projeto em Produção**  
 - Versão final da primeira etapa, com todos os arquivos completos e funcionais.
         
+**Commit 2.0 - Formulário e Lista**  
+- Adição de um formulário para adicionar textos em uma lista e um checkbox para alternar o modo escuro.
