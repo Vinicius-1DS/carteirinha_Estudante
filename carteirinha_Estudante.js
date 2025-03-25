@@ -3,7 +3,8 @@ const app = Vue.createApp({
         return {
             nome: '',
             matricula: '',
-            curso: ''
+            curso: '',
+            informacoes: ''
         }
     }
 });
